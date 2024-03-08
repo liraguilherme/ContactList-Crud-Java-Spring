@@ -1,4 +1,4 @@
-package br.com.contactlist.contactlist.service;
+package br.com.contactlist.service;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
-import br.com.contactlist.contactlist.entity.ContactEntity;
-import br.com.contactlist.contactlist.repository.ContactRepository;
+import br.com.contactlist.entity.ContactEntity;
+import br.com.contactlist.repository.ContactRepository;
 
 @Service
 public class ContactService {
@@ -56,4 +56,4 @@ public class ContactService {
 		
 	}
 
-}
+} 

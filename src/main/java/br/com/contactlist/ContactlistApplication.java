@@ -1,4 +1,4 @@
-package br.com.contactlist.contactlist;
+package br.com.contactlist;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package br.com.contactlist.contactlist.controller;
+package br.com.contactlist.controller;
 
 import java.util.List;
 
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.contactlist.contactlist.entity.ContactEntity;
-import br.com.contactlist.contactlist.service.ContactService;
+import br.com.contactlist.entity.ContactEntity;
+import br.com.contactlist.service.ContactService;
 
 @RestController
-@RequestMapping("/contact")
+@RequestMapping("/contact/v1") //V1 para versões da API
 public class ContactController {
 
 	
@@ -50,13 +50,5 @@ public class ContactController {
 	List<ContactEntity> delete(@PathVariable("id") Long id) {
 		return contactService.delete(id);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }

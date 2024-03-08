@@ -1,4 +1,4 @@
-package br.com.contactlist.contactlist.entity;
+package br.com.contactlist.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -32,26 +32,7 @@ public class ContactEntity {
 		
 		
 	}
-
-	public ContactEntity(Long id, @NotBlank String name, String number, @NotBlank String description, int prioridade) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.number = number;
-        this.description = description;
-		this.prioridade = prioridade;
 	
-	}
-
-	public ContactEntity( String name, String number, String description, int prioridade) {
-		super();
-		this.name = name;
-		this.number = number;
-        this.description = description;
-		this.prioridade = prioridade;
-	
-
-	}
 
 	public Long getId() {
 		return id;
