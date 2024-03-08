@@ -1,5 +1,7 @@
 package br.com.contactlist.entity;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -9,6 +11,7 @@ import jakarta.validation.constraints.NotBlank;
 
 @Entity
 @Table(name = "contact")
+@JsonPropertyOrder({"id", "name", "description", "number"}) //Ordem que os objetos serão serializados
 public class ContactEntity {
 	
 	
@@ -16,10 +19,10 @@ public class ContactEntity {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotBlank
+	@NotBlank //@JsonProperty altera o nome
 	private String name;
 	
-	@NotBlank
+	@NotBlank //@JsonIgnore Não mostra o atributo
 	private String number;
 	
 	
