@@ -42,11 +42,11 @@ public class ContactService {
 	}
 	
 
-	public List<ContactEntity> update(Long id, ContactEntity contactEntity){ //Operação que vai ser o PUT no controller e vai atualizar os objetos
+	public ContactEntity update(ContactEntity contactEntity){ //Operação que vai ser o PUT no controller e vai atualizar os objetos
 		
 			contactRepository.save(contactEntity);
 			
-		   return list();		
+		   return contactEntity;		
 	}
 		
 	public List<ContactEntity> delete(Long id){ //Operação que vai ser o DELETE no controller e vai apagar os objetos
