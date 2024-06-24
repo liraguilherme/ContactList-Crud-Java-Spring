@@ -1,19 +1,39 @@
-Bom, eu sou suporte de ti a 3 anos, eu sou de uberlandia MG,
-eu sempre trabalhei com soluções de problemas envolvendo tecnologia,
-eu tive a oportunidade de atuar como help desk bilingue para a netflix,
-onde fiz parte do processo de implementação de soluções de problemas e duvidas,
-as vezes pela criação de manuais também.
-atualmente eu atuo como suporte bilingue para o bradesco onde trabalho realizando
-o suporte para funcionarios daqui e de um departamento em nova iorque, faço configurações, 
-gerenciamento de ciclo de vida, dados, 
-gestão de permissões e alguns acessos. e muitas vezes no meu dia a dia
-atuo em tarefas que envolvem a segurança da informação.
-e meu objetivo é migrar definitivamente para a area de segurança e
-buscar uma nova oportunidade, e foi ai que encontrei vocês anunciando a vaga
-e pela descrição alguns items eram bem similiar com atividades que ja realizei
-e fiquei interessado em saber mais
+Microsoft Active Directory
 
-ser bom nao so pa empresa mas ajduar a empresa entregar um bom resultado pro cliente
+Tem informações dos usuarios, maquinas que eles podem utilizar
+regras e permissões dentro do ambiente, fazer o gerenciamento de acessos
+
+--------------------------
+
+proxy 
+intermediario entre a maquina e a internet, limita acesso,
+monitora o que ta sendo trafegadp
+ bluecoat e forcepoint
+
+--------------------------
+
+dlp
+ferramentea de prevenção de perda de dados
+monitora e barra vazamento de informações
+
+--------------------------
+
+siem
+centralizador de logs,
+chega logs do dlp do proxy, do active directory,
+criar novas regras, casos de uso para dectar casos comuns
+qradar ou sentinel
+
+--------------------------
+
+console de antivirus
+e uma ferramenta que centraliza e gerencia a segurança dos computaores
+no ambiente, cada empresa de antivirus tem uma versão corporativa,
+
+recursos para previnir identificar eliminar
+controlar acesso a internet como se fosse um proxy, varreduras
+
+
 
 
 Adaptabilidade
